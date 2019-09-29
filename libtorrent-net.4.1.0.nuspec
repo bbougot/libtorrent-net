@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>libtorrent-net</id>
+        <version>4.1.0</version>
+        <title>libtorrent-net</title>
+        <authors>bbougot</authors>
+        <owners>bbougot</owners>
+        <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+        <projectUrl>https://github.com/bbougot/libtorrent-net</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>libtorrent-rasterbar .NET bindings</description>
+        <releaseNotes>libtorrent 1.1.7
+Add storage</releaseNotes>
+        <copyright>Copyright © 2018</copyright>
+        <tags>libtorrent rasterbar .NET bindings torrent</tags>
+    </metadata>
+    <files>
+        <file src="..\Documents\GitHub\libtorrent-net\Win32\Release\ltnet.dll" target="lib\net45\ltnet.dll" />
+        <file src="tools\api-ms-win-core-console-l1-1-0.dll" target="tools\api-ms-win-core-console-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-datetime-l1-1-0.dll" target="tools\api-ms-win-core-datetime-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-debug-l1-1-0.dll" target="tools\api-ms-win-core-debug-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-errorhandling-l1-1-0.dll" target="tools\api-ms-win-core-errorhandling-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-file-l1-1-0.dll" target="tools\api-ms-win-core-file-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-file-l1-2-0.dll" target="tools\api-ms-win-core-file-l1-2-0.dll" />
+        <file src="tools\api-ms-win-core-file-l2-1-0.dll" target="tools\api-ms-win-core-file-l2-1-0.dll" />
+        <file src="tools\api-ms-win-core-handle-l1-1-0.dll" target="tools\api-ms-win-core-handle-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-heap-l1-1-0.dll" target="tools\api-ms-win-core-heap-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-interlocked-l1-1-0.dll" target="tools\api-ms-win-core-interlocked-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-libraryloader-l1-1-0.dll" target="tools\api-ms-win-core-libraryloader-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-localization-l1-2-0.dll" target="tools\api-ms-win-core-localization-l1-2-0.dll" />
+        <file src="tools\api-ms-win-core-memory-l1-1-0.dll" target="tools\api-ms-win-core-memory-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-namedpipe-l1-1-0.dll" target="tools\api-ms-win-core-namedpipe-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-processenvironment-l1-1-0.dll" target="tools\api-ms-win-core-processenvironment-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-processthreads-l1-1-0.dll" target="tools\api-ms-win-core-processthreads-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-processthreads-l1-1-1.dll" target="tools\api-ms-win-core-processthreads-l1-1-1.dll" />
+        <file src="tools\api-ms-win-core-profile-l1-1-0.dll" target="tools\api-ms-win-core-profile-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-rtlsupport-l1-1-0.dll" target="tools\api-ms-win-core-rtlsupport-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-string-l1-1-0.dll" target="tools\api-ms-win-core-string-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-synch-l1-1-0.dll" target="tools\api-ms-win-core-synch-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-synch-l1-2-0.dll" target="tools\api-ms-win-core-synch-l1-2-0.dll" />
+        <file src="tools\api-ms-win-core-sysinfo-l1-1-0.dll" target="tools\api-ms-win-core-sysinfo-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-timezone-l1-1-0.dll" target="tools\api-ms-win-core-timezone-l1-1-0.dll" />
+        <file src="tools\api-ms-win-core-util-l1-1-0.dll" target="tools\api-ms-win-core-util-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-conio-l1-1-0.dll" target="tools\api-ms-win-crt-conio-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-convert-l1-1-0.dll" target="tools\api-ms-win-crt-convert-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-environment-l1-1-0.dll" target="tools\api-ms-win-crt-environment-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-filesystem-l1-1-0.dll" target="tools\api-ms-win-crt-filesystem-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-heap-l1-1-0.dll" target="tools\api-ms-win-crt-heap-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-locale-l1-1-0.dll" target="tools\api-ms-win-crt-locale-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-math-l1-1-0.dll" target="tools\api-ms-win-crt-math-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-multibyte-l1-1-0.dll" target="tools\api-ms-win-crt-multibyte-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-private-l1-1-0.dll" target="tools\api-ms-win-crt-private-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-process-l1-1-0.dll" target="tools\api-ms-win-crt-process-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-runtime-l1-1-0.dll" target="tools\api-ms-win-crt-runtime-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-stdio-l1-1-0.dll" target="tools\api-ms-win-crt-stdio-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-string-l1-1-0.dll" target="tools\api-ms-win-crt-string-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-time-l1-1-0.dll" target="tools\api-ms-win-crt-time-l1-1-0.dll" />
+        <file src="tools\api-ms-win-crt-utility-l1-1-0.dll" target="tools\api-ms-win-crt-utility-l1-1-0.dll" />
+        <file src="tools\concrt140.dll" target="tools\concrt140.dll" />
+        <file src="tools\msvcp140.dll" target="tools\msvcp140.dll" />
+        <file src="tools\msvcp140_1.dll" target="tools\msvcp140_1.dll" />
+        <file src="tools\ucrtbase.dll" target="tools\ucrtbase.dll" />
+        <file src="tools\vccorlib140.dll" target="tools\vccorlib140.dll" />
+        <file src="tools\vcruntime140.dll" target="tools\vcruntime140.dll" />
+    </files>
+</package>
