@@ -25,4 +25,5 @@ Open solution, set Release/x86, build.
 # Usage
 
 * Include the library as a reference to any .NET project and simply use the libtorrent API.
-** Don't forget to include all the dlls from the "vc_150_redist_x86_windows_SDK_10.0.16299.15" folder in the same folder of the binary of your application.
+
+**Don't forget to include all the dlls from the "vc_150_redist_x86_windows_SDK_10.0.16299.15" folder in the same folder of the binary of your application.**
