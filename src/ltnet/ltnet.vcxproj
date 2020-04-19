@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9504E5FA-6818-452A-A2E8-3B34567A6CD2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Keyword>NetCoreCProj</Keyword>
+    <RootNamespace>ltnet</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>NetCore</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\ltnet-session;C:\libtorrent-libtorrent-1_2_5\include;C:\boost_1_72_0;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\x64\Release;C:\libtorrent-libtorrent-1_2_5\bin\msvc-14.2\release\address-model-64\architecture-x86\deprecated-functions-off\link-static\logging-off\threading-multi;C:\boost_1_72_0\stage\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>BOOST_ASIO_SEPARATE_COMPILATION;BOOST_ALL_NO_LIB;BOOST_ASIO_ENABLE_CANCELIO;BOOST_ASIO_HASH_MAP_BUCKETS=1021;BOOST_EXCEPTION_DISABLE;BOOST_SYSTEM_STATIC_LINK=1;TORRENT_DISABLE_GEO_IP;TORRENT_DISABLE_RESOLVE_COUNTRIES;TORRENT_USE_I2P=1;TORRENT_USE_TOMMATH;UNICODE;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_DEPRECATE;_FILE_OFFSET_BITS=64;_SCL_SECURE_NO_DEPRECATE;_UNICODE;_WIN32;_WIN32_WINNT=0x0601;__USE_W32_SOCKETS;TORRENT_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libtorrent.lib;libboost_system-vc142-mt-x64-1_72.lib;ltnet-session.lib;Advapi32.lib;Iphlpapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="add_torrent_params.h" />
+    <ClInclude Include="error_code.h" />
+    <ClInclude Include="file_storage.h" />
+    <ClInclude Include="interop.h" />
+    <ClInclude Include="magnet-uri.h" />
+    <ClInclude Include="peer_info.h" />
+    <ClInclude Include="session.h" />
+    <ClInclude Include="torrent_handle.h" />
+    <ClInclude Include="torrent_info.h" />
+    <ClInclude Include="torrent_status.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="add_torrent_params.cpp" />
+    <ClCompile Include="error_code.cpp" />
+    <ClCompile Include="file_storage.cpp" />
+    <ClCompile Include="interop.cpp" />
+    <ClCompile Include="magnet_uri.cpp" />
+    <ClCompile Include="peer_info.cpp" />
+    <ClCompile Include="session.cpp" />
+    <ClCompile Include="torrent_handle.cpp" />
+    <ClCompile Include="torrent_info.cpp" />
+    <ClCompile Include="torrent_status.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ltnet-session\ltnet-session.vcxproj">
+      <Project>{a9b0701a-de50-482d-9d8e-c8ea73ac7d8b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

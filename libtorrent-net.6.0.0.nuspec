@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>libtorrent-net</id>
+        <version>6.0.0</version>
+        <title>libtorrent-net</title>
+        <authors>bbougot</authors>
+        <owners>bbougot</owners>
+        <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+        <projectUrl>https://github.com/bbougot/libtorrent-net</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>libtorrent-rasterbar .NET bindings</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright © 2020</copyright>
+        <tags>libtorrent rasterbar .NET bindings torrent</tags>
+    </metadata>
+    <files>
+        <file src=".\x64\Release\ltnet.dll" target="lib\netcoreapp3.1\ltnet.dll" />
+        <file src=".\x64\Release\ltnet.pdb" target="lib\netcoreapp3.1\ltnet.pdb" />
+        <file src=".\x64\Release\Ijwhost.dll" target="runtimes\win-x64\native\Ijwhost.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_console_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_console_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_datetime_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_datetime_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_debug_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_debug_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_errorhandling_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_errorhandling_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_file_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_file_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_file_l1_2_0.dll" target="runtimes\win-x64\native\api_ms_win_core_file_l1_2_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_file_l2_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_file_l2_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_handle_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_handle_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_heap_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_heap_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_interlocked_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_interlocked_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_libraryloader_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_libraryloader_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_localization_l1_2_0.dll" target="runtimes\win-x64\native\api_ms_win_core_localization_l1_2_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_memory_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_memory_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_namedpipe_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_namedpipe_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_processenvironment_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_processenvironment_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_processthreads_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_processthreads_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_processthreads_l1_1_1.dll" target="runtimes\win-x64\native\api_ms_win_core_processthreads_l1_1_1.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_profile_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_profile_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_rtlsupport_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_rtlsupport_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_string_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_string_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_synch_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_synch_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_synch_l1_2_0.dll" target="runtimes\win-x64\native\api_ms_win_core_synch_l1_2_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_sysinfo_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_sysinfo_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_timezone_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_timezone_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_core_util_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_core_util_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_conio_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_conio_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_convert_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_convert_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_environment_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_environment_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_filesystem_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_filesystem_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_heap_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_heap_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_locale_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_locale_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_math_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_math_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_multibyte_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_multibyte_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_private_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_private_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_process_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_process_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_runtime_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_runtime_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_stdio_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_stdio_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_string_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_string_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_time_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_time_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\api_ms_win_crt_utility_l1_1_0.dll" target="runtimes\win-x64\native\api_ms_win_crt_utility_l1_1_0.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\concrt140.dll" target="runtimes\win-x64\native\concrt140.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\msvcp140.dll" target="runtimes\win-x64\native\msvcp140.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\msvcp140_1.dll" target="runtimes\win-x64\native\msvcp140_1.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\msvcp140_2.dll" target="runtimes\win-x64\native\msvcp140_2.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\msvcp140_codecvt_ids.dll" target="runtimes\win-x64\native\msvcp140_codecvt_ids.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\ucrtbase.dll" target="runtimes\win-x64\native\ucrtbase.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\vcamp140.dll" target="runtimes\win-x64\native\vcamp140.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\vccorlib140.dll" target="runtimes\win-x64\native\vccorlib140.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\vcomp140.dll" target="runtimes\win-x64\native\vcomp140.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\vcruntime140.dll" target="runtimes\win-x64\native\vcruntime140.dll" />
+        <file src=".\vc_142_redist_x64_14.25.28508\vcruntime140_1.dll" target="runtimes\win-x64\native\vcruntime140_1.dll" />
+    </files>
+</package>
