@@ -24,4 +24,4 @@ Open solution, set Release/x64, build.
 
 # Usage
 
-* Include the library as a reference to any .NET project and simply use the libtorrent API.
+* Include the library as a reference to any .NET Core >= 3.1 project and simply use the libtorrent API.
